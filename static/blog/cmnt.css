@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.post-form h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.post-form{
+    display: block;
+    height: 500px;
+    width: 600px;
+    border: 3px solid aqua;
+    margin: 0 auto;
+    
+}

@@ -1,0 +1,40 @@
+#post{
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+    
+.posts h1{
+    font-size: 20px;
+}
+
+.title{
+    font-size: 30px;
+    color: aqua;
+    margin-bottom: 15px;
+    border-bottom: 3px solid aqua;
+}
+.title:hover{
+    color: rgba(0,255,255,0.8);
+    border-bottom: 3px solid rgba(0,255,255,0.8);
+}
+
+.list-main hr{
+    margin: 0px 200px;
+    color: rgb(125, 133, 133);
+}
+
+
+.posts{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    padding: 20px;
+    border: 3px solid rgb(125, 133, 133);
+    scroll-margin-block-end: 20px;
+}
+
+#date{
+    padding-top: 30px;
+}

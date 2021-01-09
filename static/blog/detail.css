@@ -1,0 +1,42 @@
+.all-det{
+    margin: 40px 250px ;
+    border: 2px solid aqua;
+    border-radius:20px;
+    
+}
+.title{
+    margin-bottom: 20px;
+}
+.full{
+    margin: 20px;
+}
+.all-det h1{
+    
+    margin-top: 15px;
+}
+
+.date{
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.postcontent{
+    
+    margin-bottom: 20px;
+}
+.full a{
+    color: aqua;
+    margin-right: 15px;
+}
+.full a:hover{
+    color: rgba(0, 255, 255, 0.8);
+}
+.edit{
+    margin-bottom: 10px;
+}
+.ed{
+    margin-top: 10px;
+}
+.ed a:hover{
+    color: rgba(0, 255, 255, 0.8);
+}

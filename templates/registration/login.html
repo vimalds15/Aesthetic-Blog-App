@@ -1,0 +1,28 @@
+{% extends "blog/base.html" %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'blog/lgin.css' %}">
+<div class="user-l">
+    <form method="POST" action="">
+        {% csrf_token %}
+        <div class="other">
+            <h1>LOG IN!</h1>
+      <div class="user-name">
+        <p class="usr">Username<p>
+        <input type="text" id="id_username" placeholder="Enter the Username!" name="usr">
+    </div>
+    <div class="user-pwd">
+        <p class="usr">Password<p>
+        <input type="password" name='pwd' placeholder="Enter the Password!" id="id_password1">
+    </div>
+    <div class="lg-btn">
+        <input type="submit" value="Log In!">
+    </div>
+    <div class="sup">
+        <p>Not a Registered User?<span><a id="lin" href="{% url 'blog:register' %}">Sign Up!</a></span></p>
+    </div>
+</div>
+    </form>
+</div>
+
+{% endblock  %}

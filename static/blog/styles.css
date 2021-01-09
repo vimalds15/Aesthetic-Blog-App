@@ -1,0 +1,185 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252a;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+
+
+li,a, button{
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+    text-decoration: none;
+}
+.logo{
+    cursor:pointer;
+    height: 80px;
+   margin-right: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    
+}
+
+
+
+.logo-item{
+    
+    cursor: pointer;
+    list-style: none;
+}
+
+.logo-item li{
+    
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logo-item li a {
+    
+    transition: all 0.2s ease 0s;
+}
+
+.logo-item a:hover{
+    color: aqua;
+    border-bottom: 4px solid aqua;
+    border-radius: 1px;
+}
+
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(1, 255, 242,0.7);
+    border:none;
+    border-radius: 50px;
+    
+    cursor:pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(1, 255, 242, 0.5);
+}
+button:focus{
+    outline: none;
+}
+
+.container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    align-items: center;
+}
+
+input,textarea{
+    padding: 1px;
+    background-color: whitesmoke;
+
+}
+
+.c-it1 p{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 4px;
+}
+
+.c-it1 input{
+    width: 700px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.c-it2{
+    margin-top: 10px;
+}
+
+.c-it2 p{
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 4px;
+}
+.c-it2 textarea{
+    border-radius: 30px;
+    width:700px;
+    height: 700px;
+    padding: 20px;
+    border: none;
+}
+
+.c-it2 #id_text{
+    color: green;
+}
+
+.c-it3{
+    margin-top: 10px;
+    height: 100px;
+}
+
+.c-it3 input{
+    height: 40px;
+    width: 90px;
+    border-radius: 50px;
+    stroke: none;
+    background-color: aqua;
+    cursor: pointer;
+    color: rgb(5, 5, 5);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html{
+    height:100%;
+}
+.footer{
+    background: rgb(51, 50, 50);
+    color: rgb(43, 41, 41);
+    height: 100px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    position:bottom;
+}
+
+.c-it3 input:hover{
+    background-color: aqua;
+    opacity: 0.8;
+}
+
+.c-it1 input:focus{
+    border:5px solid aqua;
+    outline: none;
+    transition: 0.4s all ease 0.1s;
+}
+
+.c-it2 textarea:focus{
+    border:5px solid aqua;
+    outline: none;
+    transition: 0.4s all ease 0.1s;
+}
+
+.c-it3 input:focus{
+    border: 2px solid rgba(22, 189, 189,0.5 );
+    box-shadow: 0px 0px 0px 1px rgb(58, 57, 118);
+    animation: anim-shadow .3s forwards;
+    outline: none;
+}
+
+
+
+@keyframes anim-shadow{
+    100%{
+        box-shadow: 0px 0px 50px 20px rgba(58, 57, 118,0);;
+    }
+}
+

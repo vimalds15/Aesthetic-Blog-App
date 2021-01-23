@@ -1,4 +1,4 @@
-# Aesthtetic-Blog-App
+# Aesthetic-Blog-App
 
 
 <ul>
